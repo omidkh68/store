@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Roya;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Roya-Regular.eot");
+    src: url("../fonts/Roya-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roya-Regular.woff") format("woff"), url("../fonts/Roya-Regular.ttf") format("truetype"), url("../fonts/Roya-Regular.svg#Roya") format("svg")
+}
+
+header,img,button,.input-group-btn,footer,.thumbnail{
+    display: none;
+}
+
+* ,h1,h2,h3,h4,h5,h6{
+    font-family: Roya,tahoma, sans-serif !important;
+    font-weight: normal !important;
+}
+
+table{
+    direction: rtl;
+    width: 80%;
+    margin: 0 auto;
+}
+table tbody tr:last-child {
+    display: none;
+}
+table th:last-child{
+    color: #ffffff !important;
+}
+td:last-child a{
+    display: none;
+}
+input[type="text"] {
+    padding: 0 !important;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    top: -.5em;
+}
+.media-heading a{
+    display: none;
+}
+
+.printable {
+    display: block;
+}
